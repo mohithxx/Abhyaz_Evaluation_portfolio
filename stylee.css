@@ -1,0 +1,144 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/wp9142477-black-tech-wallpapers.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif; /* Default font family */
+}
+
+/* Changing the background color of the HTML document */
+html {
+    background-color: #f5f5f5; /* Light gray */
+}
+
+/* Changing the background color of the form */
+.container {
+    background-color: #f1f0f0; /* White */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+    transition: box-shadow 0.3s ease; /* Adding transition for box-shadow */
+    max-width: 800px; /* Increased maximum width of the form container */
+    margin: 0 auto; /* Centering the form horizontally */
+}
+
+/* Adding hover effect to the form */
+.container:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Styling the greeting section */
+.greet h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; /* Changing font to Montserrat */
+}
+
+.greet p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Styling the intern info section */
+.intern-info label {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Changing font to Montserrat */
+}
+
+.intern-info input[type="text"],
+.intern-info input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Styling the feedback section */
+.feedback ol {
+    list-style-type: decimal; /* Keeping numbers for list items */
+}
+
+.feedback ol li {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.feedback label {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Changing font to Montserrat */
+}
+
+.feedback input[type="radio"],
+.feedback input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.feedback textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the additional comments section */
+.addcom textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the thank you section */
+.thank p {
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif; /* Changing font to Montserrat */
+}
+
+/* Styling the submit and reset buttons */
+.submit-btn input[type="submit"],
+.submit-btn input[type="button"] {
+    background-color: #007bff; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Adding transition for background-color */
+}
+
+/* Hover effect for submit and reset buttons */
+.submit-btn input[type="submit"]:hover,
+.submit-btn input[type="button"]:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+#logo img{
+    max-width: 100%;
+    
+}
+#logo{
+    height: 273px;
+    width: 264px;
+    margin-left: 183px;
+    margin-right: 183px;
+    
+    margin-bottom: -60px;
+    margin-top: -133px;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhyaz - Feedback form</title>
+    <link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+
+<body>
+    <form id="feedbackForm">
+        <div class="container">
+            <img src="Images/3-1-4-removebg-preview -1-.png" alt="logo" id="logo">
+            <div class="greet">
+                <h3>Abhyaz Online Internship Program Feedback Form</h3>
+                <p>Dear Intern,<br>
+                    <br>Thank you for participating in the Abhyaz Online Internship Program. Your feedback is crucial
+                    for
+                    us
+                    to
+                    enhance the quality of the program for future interns. Please take a few moments to share your
+                    thoughts
+                    and
+                    experiences with us.
+                </p>
+            </div>
+            <div class="intern-info">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name"><br><br>
+
+                <label for="date">Internship start date : </label>
+                <input type="date" name="date" id="date">
+                <br><br>
+
+                <label for="Edate">Internship End date : </label>
+                <input type="date" name="Edate" id="Edate">
+                <br><br>
+
+                <label for="dname">Department/Team: </label>
+                <input type="text" name="dname" id="dname"><br><br>
+            </div>
+
+            <div class="feedback">
+                <ol>
+                    <li>Overall Experience:<br><br>
+                        <ul>
+                            <li>How would you rate your overall experience during the internship?<br><br>
+                                <input type="radio" id="c1" name="cbox">
+                                <label for="c1">Excellent</label><br>
+                                <input type="radio" id="c2" name="cbox">
+                                <label for="c2">Good</label><br>
+                                <input type="radio" id="c3" name="cbox">
+                                <label for="c3">Average</label><br>
+                                <input type="radio" id="c4" name="cbox">
+                                <label for="c4">Below Average</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Learning Opportunities:<br><br>
+                        <ul>
+                            <li>Did the internship provide you with valuable learning opportunities?<br><br>
+                                <input type="radio" id="yes" name="learning">
+                                <label for="yes">Yes</label><br>
+                                <input type="radio" id="No" name="learning">
+                                <label for="No">No</label>
+                            <li>Please provide details on the aspects you found most beneficial:</li>
+                            <textarea rows="6" cols="50" name="details"></textarea>
+                    </li>
+                    </ul>
+                    </li>
+                    <li>
+                        Supervision and Support:<br><br>
+                        <ul>
+                            <li>
+                                How would you rate the support and guidance provided by your supervisor/mentor?<br><br>
+                                <input type="radio" id="c01" name="cbox">
+                                <label for="c01">Excellent</label><br>
+                                <input type="radio" id="c02" name="cbox">
+                                <label for="c02">Good</label><br>
+                                <input type="radio" id="c03" name="cbox">
+                                <label for="c03">Average</label><br>
+                                <input type="radio" id="c04" name="cbox">
+                                <label for="c04">Below Average</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Work Environment:<br><br>
+                        <ul>
+                            <li>
+                                How would you describe the virtual work environment during your online internship at
+                                Abhyaz?<br>
+                                <input type="checkbox" name="check" id="check1">
+                                <label for="check1">Engaging</label><br>
+                                <input type="checkbox" name="check" id="check2">
+                                <label for="check2">Supportive</label><br>
+                                <input type="checkbox" name="check" id="check3">
+                                <label for="check3">Challenging</label><br>
+                                <input type="checkbox" name="check" id="check4">
+                                <label for="check4">Remote</label><br>
+                                <input type="checkbox" name="check" id="check5">
+                                <label for="check5">Isolating</label><br>
+                                <input type="checkbox" name="check" id="check6">
+                                <label for="check6">Inflexible</label><br>
+                                <input type="checkbox" id="check7" name="check">
+                                <label for="textt">Other (please specify):</label><br>
+                                <textarea rows="6" cols="50" id="textt" name="textt"></textarea>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Tasks and Responsibilities:<br><br>
+                        <ul>
+                            <li>
+                                Were the tasks and responsibilities assigned to you during the online internship
+                                relevant
+                                to
+                                your field of study/interest?<br>
+                                <input type="radio" id="yes2" name="learning">
+                                <label for="yes2">Yes</label><br>
+                                <input type="radio" id="No2" name="learning">
+                                <label for="No2">No</label>
+                            </li>
+                            <li>
+                                Please provide any additional comments regarding your tasks and responsibilities:<br>
+                                <textarea rows="6" cols="50" id="external-comments"></textarea>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        Suggestions for Improvement:<br><br>
+                        <ul>
+                            <li>
+                                Do you have any suggestions for improving the online internship program at Abhyaz?<br>
+                                <textarea rows="6" cols="50"></textarea>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Would You Recommend Abhyaz Online Internship Program to Others?<br>
+                        <input type="radio" id="yes3" name="learning">
+                        <label for="yes3">Yes</label><br>
+                        <input type="radio" id="No3" name="learning">
+                        <label for="No3">No</label>
+                    </li>
+                </ol>
+            </div>
+            <div class="addcom">
+                <p>Additional Comments:<br><br>
+                    Please share any additional comments or feedback you have regarding your online internship
+                    experience
+                    at
+                    Abhyaz.</p>
+                <textarea rows="6" cols="50"></textarea>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="Submit">
+                <input type="button" value="Reset" onclick="resetForm()">
+            </div>
+            <div class="thank">
+                <p>Thank you for your valuable feedback! Your input helps us enhance the internship program for future
+                    participants.</p>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        // Function to reset the form fields
+        function resetForm() {
+            document.getElementById("feedbackForm").reset();
+        }
+        document.getElementById('feedbackForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Redirect to the thank you page
+            window.location.href = 'thankyou.html';
+        });
+
+    </script>
+</body>
+
+</html>
